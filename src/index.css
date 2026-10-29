@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+::-webkit-scrollbar{
+    display: none;
+}
+@theme{
+    --font-nt:nt;
+}
+
+@font-face {
+    font-family: nt;
+    src: url(./assets/NHaasGroteskTXPro_55Rg-s.p.05an75qt5-3tf.woff2);
+}
